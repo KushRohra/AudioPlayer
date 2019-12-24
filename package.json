@@ -1,0 +1,15 @@
+{
+  "name": "Audio Player",
+  "version": "1.0.0",
+  "description": "A static Audio Player",
+  "main": "index.js",
+  "homepage": "https://KushRohra.github.io/audio_palyer",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Kush Rohra",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^2.1.1"
+  }
+}
