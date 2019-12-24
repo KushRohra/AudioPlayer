@@ -1,15 +1,23 @@
 {
-  "name": "Audio Player",
+  "name": "audio_player",
   "version": "1.0.0",
-  "description": "A static Audio Player",
+  "description": "",
   "main": "index.js",
-  "homepage": "https://KushRohra.github.io/AudioPlayer",
+  "dependencies": {
+    "gh-pages": "^2.1.1"
+  },
+  "devDependencies": {},
   "scripts": {
-    "deploy": "gh-pages -d dist"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KushRohra/AudioPlayer.git"
   },
   "author": "Kush Rohra",
   "license": "ISC",
-  "dependencies": {
-    "gh-pages": "^2.1.1"
-  }
+  "bugs": {
+    "url": "https://github.com/KushRohra/AudioPlayer/issues"
+  },
+  "homepage": "https://github.com/KushRohra/AudioPlayer#readme"
 }
