@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML5 Audio Player</title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <div id="container">
+            <div id="audio-img">
+                <img class="cover">
+            </div>
+            <div id="audio-player">
+                <div id="audio-info">
+                    <span class="artist"></span> - <span class="title"></span>
+                </div>
+                <input type="range" min="0" max="10" value="5" id="volume">
+                <br>
+                <div id="audio-buttons">
+                    <button id="prev"></button>
+                    <button id="play"></button>
+                    <button id="pause"></button>
+                    <button id="stop"></button>
+                    <button id="next"></button>
+                </div>
+                <div id="clearfix"></div>
+                <div id="tracker">
+                    <div id="progressbar">
+                        <span id="progress"></span>
+                    </div>
+                    <span id="duration"></span>
+                </div>
+                <div id="clearfix"></div>
+                <ul id="playlist">
+                    <li song="All We Know.mp3" cover="cover1.jpg" artist="Chainsmokers">All We Know.mp3</li>
+                    <li song="Closer.mp3" cover="cover1.jpg" artist="Chainsmokers">Closer.mp3</li>
+                    <li song="Something Just Like This.mp3" cover="cover1.jpg" artist="Chainsmokers">Something Just Like This.mp3</li>
+                    <li song="Call You Mine.mp3" cover="cover1.jpg" artist="Chainsmokers">Call You Mine.mp3</li>
+                    <li song="Don't Let me Down.mp3" cover="cover1.jpg" artist="Chainsmokers">Don't Let me Down.mp3</li>
+                    <li song="Paris.mp3" cover="cover1.jpg" artist="Chainsmokers">Paris.mp3</li>
+                    <li song="Roses.mp3" cover="cover1.jpg" artist="Chainsmokers">Roses.mp3</li>
+                    <li song="Sick Boy.mp3" cover="cover1.jpg" artist="Chainsmokers">Sick Boy.mp3</li>
+                    <li song="This Feeling.mp3" cover="cover1.jpg" artist="Chainsmokers">This Feeling.mp3</li>
+                    <li song="TakeAway.mp3" cover="cover1.jpg" artist="Chainsmokers">TakeAway.mp3</li>
+                </ul>
+            </div>
+        </div>
+
+        <script src="./js/jquery-3.4.1.min.js"></script>
+        <script src="./js/main.js"></script>
+    </body>
+</html>
