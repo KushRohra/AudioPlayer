@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A static Audio Player",
   "main": "index.js",
-  "homepage": "https://KushRohra.github.io/audio_palyer",
+  "homepage": "https://KushRohra.github.io/AudioPlayer",
   "scripts": {
     "deploy": "gh-pages -d dist"
   },
